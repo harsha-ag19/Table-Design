@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="filter-container">
+        <button id="toggle-filter">Filters</button>
+        <div id="search-container" style="display: none;">
+            <input type="text" id="search-input" placeholder="Type for ant text in the table to get the filtered result in the table">
+        </div>
+    </div>
+    <h2>Table</h2>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Description</th>
+                <th>UOM</th>
+                <th >Rate</th>
+                <th>Estimated Quantity</th>
+                <th>Estimated Amount</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class = "updateSNO">1</td>
+                <td><input type="text" class="description"></td>
+                <td><input type="text" class="uom"></td>
+                <td><input type="number" class="rate"></td>
+                <td><input type="number" class="quantity"></td>
+                <td class="amount col"></td>
+                <td class="delete col"><button type="button" class="delete-row">X</button></td>
+            </tr>
+        </tbody>
+        <tfoot id="grand-total">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Grand Total:</td>
+                <td id="total"></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    <button id="add-row">Add item</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

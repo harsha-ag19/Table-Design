@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr, tfoot tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-weight: bold;
+    width:100%;
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 5px;
+}
+
+#toggle-filter{
+    border: none;
+    color:white;
+    font-size: 22px;
+    background: rgb(50, 151, 205);
+}
+
+#filter {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+#search-container{
+    border: 1px solid #ddd;
+}
+
+#add-row {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-row{
+    padding:5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-row:hover {
+    background-color: #45a049;
+}
