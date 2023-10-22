@@ -14,4 +14,5 @@ Displaying the "Grand Total" when data has been inputted.
 Clone the repository to your local system.
 Run the index.html file in your web browser.
 
-## If you want to see the preview of the web application, link has been provided in the top right corner of the repository.
+## If you want to see the preview of the web application, link is provided below
+https://table-design-two.vercel.app/
